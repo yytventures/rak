@@ -360,9 +360,12 @@ a.btnblack {
 
 section.heresection {
     display: flex;
+    background-image: url(../images/herobannerbg.png);
     align-items: flex-end;
-    height: 100vh;
+    height: 858px;
     padding-bottom: 0;
+    margin-top: 210px;
+    background-position: bottom;
 }
 
 ul.navbar-nav a {
@@ -588,6 +591,7 @@ footer {
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #00000047;
+    align-items: center;
 }
 
 .coprights p {
@@ -711,7 +715,7 @@ header {
 }
 
 ul.heroicon {
-    position: absolute;
+    position: fixed;
     z-index: 99;
     bottom: 30%;
     right: 0;
@@ -723,6 +727,7 @@ ul.heroicon {
     justify-content: center;
     gap: 6px;
     list-style: none;
+    z-index: 999999999;
 }
 
 
@@ -753,8 +758,8 @@ li.bgblue {
 }
 
 a.livechat {
-    color: white;
-    position: absolute;
+    color: white !important;
+    position: fixed;
     right: 0;
     bottom: 60px;
     background: #c580a7;
@@ -765,6 +770,7 @@ a.livechat {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 999;
 }
 
 .heroinfo h1 {
@@ -773,7 +779,7 @@ a.livechat {
     position: relative;
     text-align: center;
     margin-bottom: 30px !important;
-    font-size: 60px;
+    font-size: 37px;
 }
 
 span.goldimg {
@@ -805,7 +811,7 @@ header .searchbutton {
 }
 
 header {
-    z-index: 99999;
+    z-index: 9999999999;
 }
 
 .menu.treatmentoption {
@@ -856,7 +862,7 @@ ul#pills-tab li button.active img {
 }
 
 ul#pills-tab button {
-    color: black;
+    color: #5a5a5a;
     display: flex;
     align-items: center;
     gap: 12px;
@@ -872,7 +878,7 @@ ul#pills-tab {
     max-width: 100%;
     border-radius: 20px;
     margin: auto;
-    margin-bottom: 80px !important;
+    margin-bottom: 30px !important;
 }
 
 .col-lg-3 ul#pills-tab {
@@ -1153,14 +1159,17 @@ ul.brand li:last-child:after {
 }
 
 .footermenu h4 {
-    font-weight: 600;
-    font-size: 36px;
+    font-weight: normal;
+    font-size: 32px;
     color: #404040;
 }
 
 .footermenu ul li a {
-    font-size: 19px;
+    font-size: 22px;
     max-width: 270px;
+    font-weight: normal;
+    align-items: center;
+    max-width: 225px;
 }
 
 .footermenu ul {
@@ -1170,7 +1179,8 @@ ul.brand li:last-child:after {
 }
 
 .coprights p {
-    font-size: 19px;
+    font-size: 22px;
+    font-weight: normal;
 }
 
 ul#brand img {
@@ -1717,22 +1727,22 @@ section.appoinmentmainsec .col-lg-3:first-child {
 }
 
 ul.socialmediamain a {
-    border: 1px solid black;
+    border: 1px solid #919191;
     display: flex;
-    padding: 13px;
+    padding: 8px 17px;
     display: flex;
     gap: 9px;
     border-radius: 11px;
 }
 
 ul.socialmediamain a i {
-    font-size: 56px;
+    font-size: 45px;
     color: black;
     transition: all 0.5s;
 }
 
 ul.socialmediamain a span {
-    font-size: 20px;
+    font-size: 17px;
     color: black;
     line-height: 0;
     letter-spacing: 1px;
@@ -1740,11 +1750,12 @@ ul.socialmediamain a span {
 }
 
 ul.socialmediamain a h6 {
-    font-size: 32px;
+    font-size: 25px;
     color: black;
-    line-height: inherit;
+    line-height: 30px;
     margin-top: -5px;
     transition: all 0.5s;
+    font-weight: 600;
 }
 
 .socialmediamain li a:hover {
@@ -1809,13 +1820,17 @@ ul.socialmedia a:hover {
 }
 
 .rasaibanner {
+    text-align: center;
+}
+
+/* .rasaibanner {
     padding: 100px;
     background-image: url(../images/rasai.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
     background-color: #784a35;
-}
+} */
 
 .rasaibanner span {
     font-size: 34px;
@@ -1855,6 +1870,29 @@ ul.socialmedia a:hover {
 
 section.rasaisec .container {
     max-width: 1510px;
+}
+
+ul.footersocialmedia {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-right: 110px;
+}
+
+ul.footersocialmedia i {
+    font-size: 30px;
+}
+
+ul.footersocialmedia li {
+    transition: all 0.5s;
+}
+
+ul.footersocialmedia li:hover {
+    transform: translateY(-5px);
+}
+
+a.livechat:hover {
+    color: white !IMPORTANT;
 }
 
 /*********************  Inner-Pages Close  *******************/
