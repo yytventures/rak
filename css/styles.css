@@ -1,0 +1,1872 @@
+/*********************  Default-CSS  *********************/
+
+input[type="file"]::-webkit-file-upload-button {
+    cursor: pointer;
+}
+
+input[type="file"]::-moz-file-upload-button {
+    cursor: pointer;
+}
+
+input[type="file"]::-ms-file-upload-button {
+    cursor: pointer;
+}
+
+input[type="file"]::-o-file-upload-button {
+    cursor: pointer;
+}
+
+input[type="file"],
+a[href],
+input[type='submit'],
+input[type='button'],
+input[type='image'],
+label[for],
+select,
+button,
+.pointer {
+    cursor: pointer;
+}
+
+::-moz-focus-inner {
+    border: 0px solid transparent;
+}
+
+::-webkit-focus-inner {
+    border: 0px solid transparent;
+}
+
+*::-moz-selection {
+    color: #fff;
+    background: #000;
+}
+
+*::-webkit-selection {
+    color: #fff;
+    background: #000;
+}
+
+*::-webkit-input-placeholder {
+    color: #333333;
+    opacity: 1;
+}
+
+*:-moz-placeholder {
+    color: #333333;
+    opacity: 1;
+}
+
+*::-moz-placeholder {
+    color: #333333;
+    opacity: 1;
+}
+
+*:-ms-input-placeholder {
+    color: #333333;
+    opacity: 1;
+}
+
+html body {
+    font-family: 'Myriad Pro';
+    margin: 0;
+    line-height: 1.3;
+    background: #ebebeb;
+}
+
+a,
+div a:hover,
+div a:active,
+div a:focus,
+button {
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+a,
+span,
+div a:hover,
+div a:active,
+button {
+    text-decoration: none;
+}
+
+*::after,
+*::before,
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.no-list li,
+.no-list ul,
+.no-list ol,
+footer li,
+footer ul,
+footer ol,
+header li,
+header ul,
+header ol {
+    list-style: inside none none;
+}
+
+.no-list ul,
+.no-list ol,
+footer ul,
+footer ol,
+header ul,
+header ol {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    outline: none;
+    color: #555;
+}
+
+a:hover {
+    color: #000;
+}
+
+body .clearfix,
+body .clear {
+    clear: both;
+    line-height: 100%;
+}
+
+body .clearfix {
+    height: auto;
+}
+
+* {
+    outline: none !important;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+ul:after,
+li:after,
+.clr:after,
+.clearfix:after,
+.container:after,
+.grve-container:after {
+    clear: both;
+    display: block;
+    content: "";
+}
+
+div input,
+div select,
+div textarea,
+div button {
+    font-family: 'Myriad Pro';
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+    font-family: 'Myriad Pro';
+    line-height: 120%;
+    color: #333;
+    font-weight: bold;
+    margin: 0 0 15px;
+}
+
+body h1:last-child,
+body h2:last-child,
+body h3:last-child,
+body h4:last-child,
+body h5:last-child,
+body h6:last-child {
+    margin-bottom: 0;
+}
+
+div select {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+div select option {
+    font-size: 13px;
+    color: #333;
+    padding: 2px 5px;
+}
+
+img {
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+body p {
+    color: #706F6F;
+    font-family: 'Myriad Pro';
+    font-size: 15px;
+    line-height: 140%;
+    margin: 0 0 15px;
+    padding: 0;
+}
+
+body p:empty {
+    margin: 0;
+    line-height: 0;
+}
+
+body p:last-child {
+    margin-bottom: 0;
+}
+
+p strong {
+    font-weight: bold;
+}
+
+.a-left {
+    text-align: left;
+}
+
+.a-right {
+    text-align: right;
+}
+
+.a-center {
+    text-align: center;
+}
+
+label em {
+    color: #ff0000;
+    display: inline-block;
+    font-style: normal;
+    vertical-align: top;
+    margin-left: 5px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+body .container {
+    width: 100%;
+    max-width: 1800px;
+}
+
+
+/*********************  scroll Hide  *********************/
+
+html.show-menu {
+    overflow: hidden;
+}
+
+html.show-menu body {
+    overflow: hidden;
+    height: 100%;
+}
+
+
+/*********************  Default-CSS close  *********************/
+
+
+/*********************  Gapping  *********************/
+
+section {
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+
+/*********************  Gapping close  *********************/
+
+
+/*********************  Default-CSS  *********************/
+
+
+/*********************  Common-Css  *******************/
+
+.clr:after,
+ul:after,
+.clearfix:after,
+li:after,
+.grve-container:after {
+    clear: both;
+    display: block;
+    content: "";
+}
+
+.btn.focus,
+.btn:focus {
+    box-shadow: none !important;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+
+/*********************  Common-Css Close  *******************/
+
+
+/*********************  Header  *******************/
+div#navbarNav {
+    justify-content: center;
+}
+
+.btns {}
+
+ul.navbar-nav {
+    margin: auto;
+}
+
+a.borderred {
+    width: 110px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 50px;
+}
+
+a.btnblack {
+    width: 110px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 50px;
+    background: black;
+    color: white;
+    margin-left: 10px;
+}
+
+.btns {
+    display: flex;
+}
+
+section.heresection {
+    display: flex;
+    align-items: flex-end;
+    height: 100vh;
+    padding-bottom: 0;
+}
+
+ul.navbar-nav a {
+    color: black;
+    font-size: 18px;
+}
+
+header {
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transform: all 0.5s;
+    z-index: 999;
+}
+
+a.navbar-brand {
+    width: 267px;
+}
+
+html:hover .cursor {
+    opacity: 1;
+}
+
+a {
+    transition: border 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+ul.navbar-nav a {
+    margin: 0 15px;
+}
+
+nav.navbar.navbar-expand-lg {
+    padding: 25px 0px;
+    transition: all 0.5s;
+}
+
+header.fixed .navbar {
+    box-shadow: 0px 5px 50px #0000000d;
+    padding: 15px 0px;
+}
+
+/*********************  Header Close  *******************/
+a.btnblack:hover {
+    background: transparent;
+    color: black;
+}
+
+a.borderred:hover {
+    color: white;
+    background: black;
+}
+
+section .come {
+    height: 100vh;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: aliceblue;
+}
+
+.come h1 {
+    font-size: 200px;
+    font-style: normal;
+    /* or 84px */
+    letter-spacing: -0.03em;
+    font-family: 'Circular-Loom';
+}
+
+
+.menu {
+    width: 300px;
+    background-color: white;
+    /* border: 1px solid #ddd; */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.menu li:last-child {
+    border-bottom: none;
+}
+
+.menu li:hover {
+    background-color: #f9f9f9;
+}
+
+.menu li img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+    flex-grow: 1;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+}
+
+.menu li .arrow {
+    font-size: 16px;
+    color: #aaa;
+}
+
+.menu {
+    position: absolute;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+    top: 50px;
+    z-index: 9999;
+}
+
+a.nav-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-item:hover .menu {
+    height: 353px;
+    z-index: 9999;
+}
+
+li.nav-item {
+    position: relative;
+}
+
+/*********************  Home banner  *******************/
+
+
+/*********************  Home banner Close  *******************/
+
+
+/*********************  Content  *******************/
+
+
+/*********************  Content Close  *******************/
+
+
+/*********************  Footer  *******************/
+ul.social {
+    display: flex;
+    align-items: center;
+}
+
+ul.social a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    alc: inherit;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+ul.social li {
+    margin-right: 10px;
+}
+
+ul.footermenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.contactbtns input {
+    width: 100%;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid;
+    padding: 0px 20px;
+}
+
+.contactbtns {
+    position: relative;
+}
+
+.contactbtns a {
+    width: 100px;
+    height: 40px;
+    background: black;
+    border-radius: 50px;
+    color: white;
+    position: absolute;
+    right: 6px;
+    display: f;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+footer {
+    padding: 60px 0px 0px;
+    background: #00000005;
+}
+
+.coprights {
+    padding: 20px 0px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #00000047;
+}
+
+.coprights p {
+    margin: 0;
+}
+
+.footerlogo img {
+    margin-bottom: 21px;
+}
+
+.footerlogo p {
+    margin-bottom: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.btns {
+    background: #c580a7;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.btns select {
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+ul.socialmedia {
+    position: absolute;
+    top: -11px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+ul.socialmedia a {
+    gap: 4px;
+    width: 61px;
+    height: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #c580a7;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 14px;
+    text-align: center;
+    font-size: 8px;
+}
+
+header .container {
+    position: relative;
+}
+
+section.heresection {
+    position: relative;
+}
+
+span.herobanner {
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 200px);
+}
+
+span.herobanner img {
+    width: 100%;
+}
+
+header {
+    background: #ebebeb;
+}
+
+.searchbutton {
+    position: absolute;
+    right: 0;
+    bottom: -74px;
+    width: 100%;
+    max-width: 974px;
+    background: white;
+    border-radius: 25px;
+    height: 89px;
+    overflow: hidden;
+}
+
+.searchbutton {}
+
+.searchbutton input {
+    width: 100%;
+    height: 100%;
+    padding: 10px 80px 10px 50px;
+    border: none;
+    font-size: 18px;
+}
+
+.searchbutton a {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+ul.heroicon {
+    position: absolute;
+    z-index: 99;
+    bottom: 30%;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    list-style: none;
+}
+
+
+ul.heroicon a {
+    padding: 10px;
+    width: 72px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li.bggreen {
+    background: green;
+    border-radius: 11px 0px 0px 11px;
+}
+
+ul.heroicon li {
+    border-radius: 11px 0px 0px 11px;
+}
+
+li.bgred {
+    background: #fb3b3b;
+}
+
+li.bgblue {
+    background: #00b8ff;
+}
+
+a.livechat {
+    color: white;
+    position: absolute;
+    right: 0;
+    bottom: 60px;
+    background: #c580a7;
+    font-size: 18px;
+    width: 120px;
+    height: 50px;
+    border-radius: 11px 0px 0px 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroinfo h1 {
+    color: white;
+    z-index: 999;
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px !important;
+    font-size: 60px;
+}
+
+span.goldimg {
+    position: absolute;
+    bottom: 200px;
+    left: 70px;
+    width: 300px;
+    height: 300px;
+}
+
+header.fixed .searchbutton {
+    bottom: -7px;
+    height: 53px;
+}
+
+header.fixed .searchbutton a {
+    width: 43px;
+    height: 43px;
+}
+
+header .searchbutton a {
+    width: 67px;
+    height: 67px;
+    transition: all 0.5s;
+}
+
+header .searchbutton {
+    transition: all 0.5s;
+}
+
+header {
+    z-index: 99999;
+}
+
+.menu.treatmentoption {
+    position: relative;
+    height: auto;
+    width: 100%;
+    max-width: 630px;
+    margin: auto;
+}
+
+div#pills-home .row {
+    /* align-items: center; */
+}
+
+.appoinmentdetail h3 {
+    font-size: 51px;
+    color: #5a5a5a;
+    border-bottom: 8px solid #d282b0;
+    font-weight: 500;
+}
+
+.appoinmentdetail span {
+    font-size: 25px;
+    color: #c580a7;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.menu.treatmentoption a {
+    font-size: 24px;
+    color: gray;
+    margin-left: 20px;
+}
+
+.menu.treatmentoption li img {
+    width: 50px;
+    height: 50px;
+}
+
+ul#pills-tab li button.active {
+    background-color: #c580a7 !important;
+    border-radius: 20px;
+    color: white;
+}
+
+ul#pills-tab li button.active img {
+    filter: brightness(0.5);
+}
+
+ul#pills-tab button {
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 19px;
+    padding: 10px 40px;
+    width: 100%;
+}
+
+ul#pills-tab {
+    background: white;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 80px !important;
+}
+
+.col-lg-3 ul#pills-tab {
+    background: transparent;
+    gap: 11px;
+    margin-bottom: 20px !important;
+}
+
+.col-lg-3 ul#pills-tab button {
+    background: white;
+    border-radius: 50px;
+    width: 120px;
+    text-align: center !IMPORTANT;
+    justify-content: center;
+}
+
+ul#pills-tab li {}
+
+ul#pills-tab button img {
+    margin: 0;
+}
+
+section.expertisesec {
+    background: white;
+}
+
+.expertisetitle {
+    text-align: center;
+    padding: 40px 160px;
+    border: 5px solid #c580a7;
+}
+
+.expertisetitle h3 {
+    font-size: 69px;
+    margin-top: -80px;
+    background: white;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.expertisetitle p {
+    font-size: 34px;
+    line-height: 40px;
+}
+
+body {
+    font-family: 'Myriad Pro';
+}
+
+section.rakhintegratedsec {
+    background: white;
+}
+
+.rakhintegratedtitle {
+    text-align: center;
+    background: #CECECE;
+    padding: 10px 0px;
+    border-radius: 100px 0px;
+}
+
+.rakhintegratedtitle h3 {
+    font-size: 56px;
+    line-height: 80px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+div#v-pills-tab button {
+    border: 2px solid #d083b2;
+    color: black;
+    padding: 10px 50px;
+}
+
+div#v-pills-tab {
+    display: flex;
+    height: 100%;
+    gap: 12px;
+    margin-right: auto !important;
+}
+
+div#v-pills-tab h5 {
+    margin-bottom: auto;
+}
+
+.d-flex.align-items-start {
+    align-items: center !important;
+}
+
+div#v-pills-tab button.active {
+    background: #d083b2;
+    color: white;
+}
+
+
+
+.rakhintegratedtitle {
+    margin-bottom: 60px;
+}
+
+.tabtitle {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.tabtitle h5+h5 {
+    margin: auto;
+}
+
+.tabtitle h5 {
+    color: #4a4a4a;
+    font-size: 27px;
+    text-align: center;
+}
+
+div#v-pills-tab button {
+    position: relative;
+    font-size: 21px;
+}
+
+div#v-pills-tab button:after {
+    content: "";
+    position: absolute;
+    width: 130px;
+    height: 2px;
+    background: #d083b2;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -64%;
+}
+
+section.servicesec {
+    background: #ECE5EA;
+}
+
+.servicecalltitle {
+    text-align: center;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.servicecalltitle h3 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #706f6f;
+}
+
+.card-body h5 {
+    font-size: 38px;
+    color: #706F6F;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.card-body p {
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+.card-body a {
+    font-size: 18px;
+}
+
+.card {
+    border-radius: 30px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.card img {
+    height: 450px;
+    object-fit: cover;
+}
+
+section.servicesec.patientstorysec {
+    background: white;
+}
+
+section.servicesec.patientstorysec .card {
+    border-radius: 0;
+}
+
+section.servicesec.patientstorysec .card {
+    background: #E2E2E2;
+    border: none;
+    padding: 20px;
+}
+
+section.servicesec.patientstorysec p span {
+    background: #f4d1bc;
+    color: black;
+    padding: 4px;
+}
+
+section.servicesec.patientstorysec .card .card-body {
+    padding: 15px 0;
+    padding-bottom: 0;
+}
+
+.rasaititle h3 {
+    font-size: 87px;
+    color: #764834;
+    font-weight: 500;
+    margin: 0;
+}
+
+.rasaititle p {
+    font-size: 45px;
+    color: #1D1D1B;
+    background: #f4d1bc;
+}
+
+section.rasai {
+    background: white;
+    padding-bottom: 120px;
+    border-bottom: 6px solid #764834;
+    position: relative;
+    padding-top: 100px;
+}
+
+section.rasai:after {
+    content: "";
+    height: 30px;
+    background: #986149;
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    max-width: 630px;
+}
+
+section.awardsec {
+    background: white;
+}
+
+.awardtitle {
+    text-align: center;
+}
+
+.awardtitle h3 {
+    font-size: 66px;
+    font-weight: 600;
+    color: #575756;
+}
+
+ul.brand {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+ul.brand a {
+    padding: 0 30px;
+}
+
+ul.brand li {
+    height: 100%;
+    position: relative;
+}
+
+ul.brand li:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 150px;
+    width: 2px;
+    background: #e6e6e6;
+}
+
+ul.brand li:last-child:after {
+    display: none;
+}
+
+.footermenu h4 {
+    font-weight: 600;
+    font-size: 36px;
+    color: #404040;
+}
+
+.footermenu ul li a {
+    font-size: 19px;
+    max-width: 270px;
+}
+
+.footermenu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.coprights p {
+    font-size: 19px;
+}
+
+ul#brand img {
+    width: auto;
+}
+
+.owl-stage {
+    display: flex;
+    align-items: center;
+}
+
+li.nav-item i {
+    font-size: 14px;
+}
+
+/*********************  Footer Close  *******************/
+
+
+/*********************  Inner-Pages  *******************/
+.body-wise {
+    margin-top: 78px
+}
+
+.full-body {
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    border: 1px solid #e6eaee;
+    box-sizing: border-box;
+    border-radius: 40px;
+    padding: 20px 0 0
+}
+
+.set-organs {
+    position: relative;
+    width: auto;
+    height: 565px
+}
+
+.organ-tooltip {
+    cursor: pointer;
+    position: absolute;
+    will-change: transform;
+    top: -10px;
+    left: 0
+}
+
+.showSingle {
+    position: relative
+}
+
+.organ-tooltip-inner {
+    background: rgba(255, 255, 255, .746);
+    width: 100%;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, .15);
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #00984a;
+    text-transform: capitalize;
+    max-width: 165px;
+    height: max-content;
+    text-align: left
+}
+
+.organ-tooltip .arrow::before {
+    border-right-color: rgba(256, 256, 256, .746)
+}
+
+.heart-set {
+    position: absolute;
+    top: 130px;
+    left: 73px;
+    z-index: 11
+}
+
+.heart-set .organ-tooltip {
+    left: 40px !important
+}
+
+#details_heart {
+    position: relative
+}
+
+#details_heart::before {
+    content: '';
+    background: url(https://www.metropolisindia.com/newdata/images/line.svg) no-repeat;
+    width: 100%;
+    height: 200px;
+    top: 25%;
+    left: -70%;
+    position: absolute;
+    display: none
+}
+
+.body-part-test {
+    display: flex;
+    justify-content: space-between
+}
+
+.organ img {
+    opacity: .5;
+    cursor: pointer
+}
+
+.display-none {
+    display: none !important;
+}
+
+.organ-tooltip-inner {
+    background: rgba(255, 255, 255, .746);
+    width: 100%;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, .15);
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #00984a;
+    text-transform: capitalize;
+    max-width: 165px;
+    height: max-content;
+    text-align: left;
+}
+
+.organ img.clicked {
+    opacity: 1;
+    animation-name: pulse;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite
+}
+
+.organ img:hover {
+    opacity: 1;
+    animation-name: pulse;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite
+}
+
+.liver-set {
+    position: absolute;
+    top: 177.46px;
+    left: 48.49px;
+    z-index: 10
+}
+
+.liver-set .organ-tooltip {
+    left: 65px
+}
+
+.brain-set {
+    position: absolute;
+    top: 6px;
+    left: 66px;
+    z-index: 10
+}
+
+.brain-set .organ-tooltip {
+    left: 50px
+}
+
+.lungs-set {
+    position: absolute;
+    top: 100px;
+    left: 42px;
+    z-index: 10
+}
+
+.lungs-set .organ-tooltip {
+    left: 90px !important
+}
+
+.stomach-set {
+    position: absolute;
+    top: 184px;
+    left: 78px;
+    z-index: 10
+}
+
+.stomach-set .organ-tooltip {
+    left: 60px !important
+}
+
+.intestines-set {
+    position: absolute;
+    top: 215px;
+    left: 47px;
+    z-index: 10
+}
+
+.intestines-set .organ-tooltip {
+    left: 90px !important
+}
+
+.kidney-set {
+    position: absolute;
+    top: 215px;
+    left: 57px;
+    z-index: 10
+}
+
+.kidney-set .organ-tooltip {
+    left: 70px !important
+}
+
+.pancreas-set {
+    position: absolute;
+    top: 215px;
+    left: 80px;
+    z-index: 10
+}
+
+.pancreas-set .organ-tooltip {
+    left: 30px !important
+}
+
+.thyroid-set {
+    position: absolute;
+    top: 70px;
+    left: 77px;
+    z-index: 10
+}
+
+.thyroid-set .organ-tooltip {
+    left: 30px !important
+}
+
+.male_reproductive_system-set {
+    position: absolute;
+    top: 245px;
+    left: 71px;
+    z-index: 10
+}
+
+.male_reproductive_system-set .organ-tooltip {
+    left: 40px !important
+}
+
+.female_reproductive_system-set {
+    position: absolute;
+    top: 255px;
+    left: 61px;
+    z-index: 10
+}
+
+.female_reproductive_system-set .organ-tooltip {
+    left: 60px !important
+}
+
+.clicked img,
+.heart-set img {
+    opacity: 1
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(1)
+    }
+
+    50% {
+        transform: scale(.9)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+.fe-pulse {
+    animation-name: pulse;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite
+}
+
+.issue-details h3 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #989898;
+    margin-bottom: 0
+}
+
+.issue-details h3 .organ-name {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #989898;
+    text-transform: capitalize
+}
+
+#body-image.female-body {
+    max-width: none;
+    margin-left: -31px;
+    height: 565px
+}
+
+.issue-details h3 span {
+    font-weight: 500;
+    font-size: 16px;
+    color: #00984a;
+    text-transform: capitalize
+}
+
+.select-type-of-issue button {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #5d5d5d;
+    border: 1px solid #ebebeb;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: 0 0;
+    padding: 8px 18px;
+    margin-right: 14px;
+    cursor: auto
+}
+
+.Preventive-test {
+    margin-top: 18px;
+    background: #fff;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .1);
+    border-radius: 12px;
+    max-height: 400px;
+    overflow-y: scroll
+}
+
+.Preventive-test h4 {
+    padding: 25px 25px 10px;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0;
+    color: #00984a
+}
+
+.Preventive-test h4 .organ-name {
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0;
+    color: #00984a;
+    text-transform: capitalize
+}
+
+.Preventive-test .Some-preventive-test {
+    padding: 15px 13px 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.Preventive-test .divider {
+    border-bottom: 1px solid #ebebeb;
+    height: 1px;
+    width: 60%;
+    margin-left: 5%
+}
+
+.Preventive-test .Some-preventive-test span {
+    font-size: 14px;
+    color: #212121
+}
+
+.Some-preventive-test .btn-blue-outline {
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    padding: 9px 30px;
+    color: #0cb6e1;
+    cursor: pointer
+}
+
+.Some-preventive-test .btn-blue-outline.add-organ-test.active,
+.Some-preventive-test .btn-blue-outline:hover {
+    background: #0cb6e1;
+    border-radius: 6px;
+    color: #fff
+}
+
+.all-test-page {
+    margin-left: 30px;
+    margin-top: 16px
+}
+
+.all-test-page a {
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration: underline
+}
+
+.all-test-page a:hover {
+    cursor: pointer
+}
+
+#liver-issue-details {
+    display: none
+}
+
+.TruHealth-Check-ups {
+    padding-top: 85px
+}
+
+.truhealth-Age,
+.truhealth-male {
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+    border-radius: 8px;
+    background: #fff;
+    font-size: 14px
+}
+
+.dropdown-menu {
+    font-size: 14px
+}
+
+.truhealth-dropdown {
+    padding-top: 18px;
+    padding-bottom: 34px
+}
+
+.truhelath-details {
+    box-shadow: 0 5px 7px rgba(33, 33, 33, .07);
+    border-radius: 14px
+}
+
+.truhealth-info {
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+    position: relative;
+    margin-top: -40px;
+    background: #fff
+}
+
+.truhelath-image {
+    position: relative
+}
+
+.truhelath-image img {
+    border-radius: 12px
+}
+
+.truhelath-image::after {
+    content: '';
+    position: absolute;
+    background: url(https://www.metropolisindia.com/newdata/images/way.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100%;
+    height: 90px;
+    bottom: 40px;
+    left: 0
+}
+
+.truhealth-info ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0
+}
+
+.truhealth-info span {
+    font-size: 12px;
+    line-height: 15px
+}
+
+.truhealth-info h3 {
+    font-size: 23px;
+    line-height: 28px;
+    color: #00984a;
+    font-weight: 600
+}
+
+.form_data {
+    display: inline
+}
+
+.truhealth-info button {
+    width: 100%;
+    margin-top: 30px;
+    background: 0 0 !important;
+    border-radius: 5px;
+    border: 1px solid #7f8fa4;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #7f8fa4
+}
+
+.truhealth-info button:hover {
+    color: #fff;
+    background: #41802f !important;
+    border-color: #41802f
+}
+
+.truhealth-info li {
+    padding: 10px 0;
+    border-bottom: 1px solid #e7e8ea;
+    font-size: 13px
+}
+
+.col-lg-3 div#pills-tabContent {
+    display: flex;
+    justify-content: center;
+}
+
+.col-lg-3 ul#pills-tab {
+    justify-content: center;
+}
+
+img#body-image {
+    /* filter: invert(1); */
+}
+
+.organ {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.expertisetitle {
+    padding-bottom: 0;
+}
+
+.expertisetitle span {
+    display: block;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.male_reproductive_system-set.femaleorgan.organ {
+    top: 266px;
+}
+
+.menu.treatmentoption {
+    top: 0;
+}
+
+section.appoinmentmainsec .col-lg-3:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.appoinmentdetail {
+    margin-bottom: 110px;
+}
+
+ul.socialmediamain a {
+    border: 1px solid black;
+    display: flex;
+    padding: 13px;
+    display: flex;
+    gap: 9px;
+    border-radius: 11px;
+}
+
+ul.socialmediamain a i {
+    font-size: 56px;
+    color: black;
+    transition: all 0.5s;
+}
+
+ul.socialmediamain a span {
+    font-size: 20px;
+    color: black;
+    line-height: 0;
+    letter-spacing: 1px;
+    transition: all 0.5s;
+}
+
+ul.socialmediamain a h6 {
+    font-size: 32px;
+    color: black;
+    line-height: inherit;
+    margin-top: -5px;
+    transition: all 0.5s;
+}
+
+.socialmediamain li a:hover {
+    background: #c580a7;
+}
+
+.socialmediamain li a:hover i,
+.socialmediamain li a:hover span,
+.socialmediamain li a:hover h6 {
+    color: white;
+}
+
+.socialmediamain li a:hover {
+    border-color: white;
+}
+
+footer .col-lg-2 {
+    width: 20%;
+}
+
+ul.socialmediamain {
+    gap: 13px;
+}
+
+section.rasai .container {
+    display: flex;
+}
+
+.card-body a {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.card-body a i {
+    transition: all 0.5s;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #c580a7;
+    border-radius: 100%;
+    font-size: 13px;
+    color: white;
+}
+
+.card-body a:hover i {
+    transform: translateX(5px);
+}
+
+a:hover {
+    color: #c580a7 !important;
+}
+
+a {
+    transition: all 0.5s;
+}
+
+ul.socialmedia a:hover {
+    color: white !important;
+}
+
+.rasaibanner {
+    padding: 100px;
+    background-image: url(../images/rasai.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #784a35;
+}
+
+.rasaibanner span {
+    font-size: 34px;
+    color: white;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.bg-white {
+    max-width: 554px;
+    margin-bottom: 40px;
+    padding: 14px;
+    background-image: linear-gradient(90deg, white, #ffffff1a) !important;
+    background: transparent;
+    background-color: transparent !important;
+}
+
+.bg-white h3 {
+    font-size: 60px;
+    color: #986149;
+}
+
+.bg-white p {
+    font-size: 36px;
+    color: #000000d9;
+    font-weight: 600;
+}
+
+.rasaibanner a {
+    font-size: 23px;
+    color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+section.rasaisec .container {
+    max-width: 1510px;
+}
+
+/*********************  Inner-Pages Close  *******************/
+
+
+/*********************  Owl  *******************/
+
+
+/*********************  Owl Close  *******************/
+
+
+/*********************  Fancy-box  *******************/
+
+
+/*********************  Fancy-box Close  *******************/

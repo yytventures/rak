@@ -1,0 +1,1185 @@
+@media only screen and (min-width: 1430px) {
+    .container {
+        max-width: 1290px;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+    .container {
+        max-width: 1630px;
+    }
+}
+
+
+@media only screen and (max-width: 1599px) {
+    ul.socialmedia a {
+        width: 60px;
+        height: 40px;
+    }
+
+    a.navbar-brand {
+        width: 190px;
+    }
+
+    .searchbutton {
+        height: 70px;
+    }
+
+    header .searchbutton a {
+        width: 50px;
+        height: 50px;
+    }
+
+    ul#pills-tab button {
+        padding: 10px 17px;
+        gap: 7px;
+    }
+
+    ul#pills-tab button img {
+        width: 53px;
+    }
+
+    .appoinmentdetail h3 {
+        font-size: 30px;
+    }
+
+    header.fixed .searchbutton {
+        bottom: -30px;
+    }
+
+    .expertisetitle h3 {
+        font-size: 40px;
+        margin-top: -60px;
+    }
+
+    .expertisetitle p {
+        font-size: 21px;
+        line-height: 30px;
+    }
+
+    .rakhintegratedtitle h3 {
+        font-size: 40px;
+    }
+
+    div#v-pills-tabContent {
+        z-index: 999;
+    }
+
+    .servicecalltitle h3 {
+        font-size: 30px;
+    }
+
+    .servicecalltitle h3 img {
+        width: 40px;
+    }
+
+    .card-body h5 {
+        font-size: 27px;
+    }
+
+    .rasaititle h3 {
+        font-size: 60px;
+    }
+
+    .rasaititle p {
+        font-size: 35px;
+    }
+
+    .awardtitle h3 {
+        font-size: 40px;
+    }
+
+    ul#brand {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 1429px) {
+    a.nav-link {
+        margin: 0 !important;
+        font-size: 16px !IMPORTANT;
+    }
+
+    span.herobanner img {
+        height: 100%;
+    }
+
+    span.herobanner {
+        height: calc(100% - 170px);
+    }
+
+    .menu li a {
+        font-size: 15px !important;
+        margin: 0 !important;
+    }
+
+    .menu li {
+        padding: 10px;
+    }
+
+    .nav-item:hover .menu {
+        height: 270px;
+    }
+
+    ul#pills-tab button img {
+        width: 40px;
+    }
+
+    ul#pills-tab button {
+        font-size: 17px;
+        padding: 10px 9px;
+    }
+
+    .menu.treatmentoption li img {
+        width: 40px;
+    }
+
+    .menu.treatmentoption {
+        top: 0;
+    }
+
+    .rasaibanner {
+        padding: 50px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    a.nav-link {
+        font-size: 14px !important;
+    }
+
+    a.navbar-brand {
+        width: 120px;
+    }
+
+    nav.navbar.navbar-expand-lg {
+        padding: 36px 0px 25px;
+    }
+
+    ul.socialmedia {
+        top: -30px;
+    }
+
+    .searchbutton {
+        max-width: 500px;
+    }
+
+    .searchbutton input {
+        padding: 10px 80px 10px 20px;
+    }
+
+    .heroinfo h1 {
+        font-size: 30px;
+    }
+
+    section.heresection {
+        height: 768px;
+    }
+
+    .col-lg-3 ul#pills-tab button {
+        width: 100px;
+    }
+
+    div#v-pills-tab button {
+        font-size: 17px;
+        padding: 10px 30px;
+        z-index: 999 !important;
+        background: white;
+        position: relative;
+    }
+
+    div#v-pills-tab button:after {
+        width: 106px;
+    }
+
+    .rakhintegratedtitle h3 {
+        font-size: 30px;
+    }
+
+    .card-body h5 {
+        font-size: 22px;
+    }
+
+    .rasaititle p {
+        font-size: 25px;
+    }
+
+    .footermenu ul li a {
+        font-size: 16px;
+    }
+
+    .footermenu h4 {
+        font-size: 30;
+        font-size: 26px;
+    }
+
+    .coprights p {
+        font-size: 16px;
+    }
+
+    footer .col-lg-2:last-child {
+        width: 100%;
+    }
+
+    footer .col-lg-2 {
+        width: 25%;
+    }
+
+    ul#pills-tab {
+        flex-wrap: nowrap;
+        white-space: nowrap;
+        overflow: auto;
+    }
+
+    ul#pills-tab button {
+        padding: 10px 60px 10px 13px;
+    }
+
+    ul#pills-tab::-webkit-scrollbar {
+        display: none;
+    }
+
+    .col-lg-3 ul#pills-tab button {
+        padding: 10px;
+    }
+
+    .bg-white h3 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .bg-white p {
+        font-size: 25px;
+    }
+
+    .rasaibanner a {
+        font-size: 21px;
+    }
+
+    .rasaibanner span {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    ul.footermenu {
+        max-width: 370px;
+        justify-content: space-between;
+        margin: 30px 0px;
+    }
+
+    .contactbtns {
+        max-width: 390px;
+    }
+
+    /**********  Responsive Menu Bootstrap **********/
+
+    /**  menu  **/
+    .toggler {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        padding: 0;
+        border-radius: 5px;
+        background-color: #fff;
+        border: 1px solid #7bc00b;
+        text-align: center;
+        z-index: 99;
+        display: block;
+        transition: all 0.5s;
+        margin-left: 20px;
+    }
+
+    .show-menu .toggler {
+        width: 40px;
+        height: 40px;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        border: none;
+    }
+
+    .toggler span {
+        position: relative;
+        width: 60%;
+        height: 2px;
+        background-color: #7bc00b;
+        display: inline-block;
+        vertical-align: top;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    .toggler span::before,
+    .toggler span::after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 2px;
+        background-color: #7bc00b;
+        right: 0;
+        transition: all 0.5s;
+        animation: openCloseByeSpan 300ms linear forwards;
+    }
+
+    .toggler span::before {
+        top: -6px;
+    }
+
+    .toggler span::after {
+        top: 6px;
+    }
+
+    .show-menu .toggler span::before,
+    .show-menu .toggler span::after {
+        left: 0;
+        right: 0;
+        margin: auto;
+        transform: rotate(45deg);
+        top: -5px;
+    }
+
+    .show-menu .toggler span::after {
+        transform: rotate(-45deg);
+    }
+
+    .show-menu .toggler span {
+        height: 0;
+    }
+
+    #navbarNav {
+        background: #ffffff url(../images/banner-img.png) no-repeat bottom right / auto 170px;
+        /* box-shadow: 0 0px 0 10px #fff inset, 0 0 0 11px #7bc00b inset; */
+        padding: 60px 20px 15px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        display: block !important;
+        width: 100% !important;
+        text-align: center;
+        bottom: 0;
+        -webkit-transition: all 0.5s ease 0s;
+        -moz-transition: all 0.5s ease 0s;
+        -ms-transition: all 0.5s ease 0s;
+        -o-transition: all 0.5s ease 0s;
+        transition: all 0.5s ease 0s;
+        -webkit-transform: translateX(110%);
+        -moz-transform: translateX(110%);
+        -ms-transform: translateX(110%);
+        -o-transform: translateX(110%);
+        transform: translateX(110%);
+        height: auto !important;
+        overflow: auto;
+    }
+
+    .show-menu #navbarNav {
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+
+    .show-menu .navbar-toggler {
+        position: fixed;
+        z-index: 5;
+        right: 15px;
+        border-radius: 5px;
+        padding: 2px;
+        top: 15px;
+    }
+
+    .show-menu .navbar-toggler-icon {
+        background-image: url("../images/close.svg");
+        background-size: 14px auto;
+    }
+
+    .navbar-nav .nav-item {
+        margin-left: 0;
+    }
+
+    .navbar .navbar-nav .nav-link {
+        font-size: 18px;
+        padding: 10px 10px;
+        margin: 0;
+        line-height: 1.2;
+    }
+
+    .navbar-nav .nav-link:hover {
+        color: #7bc00b;
+    }
+
+    .navbar-nav .active .nav-link {
+        color: #7bc00b;
+        font-weight: bold;
+    }
+
+    .navbar-nav .nav-item .dropdown-item {
+        text-align: center;
+        padding: 10px 10px;
+    }
+
+    .navbar-nav .dropdown-menu {
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    /* Common Css must add */
+    .navbar-toggler svg {
+        height: 40px;
+        position: absolute;
+        width: 40px;
+        cursor: pointer;
+        /*   border: 1px solid black; */
+        /* background-color: #fff; */
+    }
+
+    .plate {
+        height: 40px;
+        width: 40px;
+    }
+
+    .burger {
+        filter: url(#gooeyness);
+    }
+
+    .x {
+        transform: scale(0);
+        transition: transform 400ms;
+    }
+
+    .line {
+        fill: none;
+        stroke: #000000;
+        stroke-width: 6px;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        transform-origin: 50%;
+        transition: stroke-dasharray 500ms 200ms, stroke-dashoffset 500ms 200ms,
+            transform 500ms 200ms;
+    }
+
+    .x .line {
+        stroke-width: 5.5px;
+    }
+
+    /* Common Css must add end */
+
+    /* Forth Menu Css */
+    .plate4 .x {
+        transition: transform 400ms;
+    }
+
+    .plate4 .line {
+        transform-origin: 50%;
+        transition: transform 400ms 100ms;
+    }
+
+    .active.plate4 .line {
+        transition: transform 400ms;
+    }
+
+    .active.plate4 .line1 {
+        transform: translateX(18px) translateY(-3px) rotate(-45deg) scale(0.7);
+    }
+
+    .active.plate4 .line2 {
+        transform: translateX(-18px) translateY(-3px) rotate(45deg) scale(0.7);
+    }
+
+    .active.plate4 .line3 {
+        transform: translateY(0px) rotate(45deg) scale(0.7);
+    }
+
+    .active.plate4 .line4 {
+        transform: translateY(0px) rotate(-45deg) scale(0.7);
+    }
+
+    .active.plate4 .line5 {
+        transform: translateX(18px) translateY(3px) rotate(45deg) scale(0.7);
+    }
+
+    .active.plate4 .line6 {
+        transform: translateX(-18px) translateY(3px) rotate(-45deg) scale(0.7);
+    }
+
+    .active.plate4 .x {
+        transition: transform 400ms 100ms;
+        transform: scale(1);
+    }
+
+    button.navbar-toggler {
+        padding: 0;
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        width: 40px;
+        height: 40px;
+        z-index: 99999;
+    }
+
+    span.navbar-toggler-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .navbar-toggler svg {
+        left: 0;
+        top: 0;
+    }
+
+    .show-menu .navbar-toggler {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 9999;
+        right: 10px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .btns {
+        justify-content: center;
+    }
+
+    /**  Menu  **/
+    ul.socialmedia {
+        top: 10px;
+        left: 27px;
+    }
+
+    .navbar-nav .nav-link i {
+        margin-left: auto;
+    }
+
+    div#navbarNav {
+        z-index: 99;
+    }
+
+    nav.navbar.navbar-expand-lg {
+        padding: 6px 0px;
+    }
+
+    span.herobanner {
+        height: calc(100% - 100px);
+    }
+
+    .navbar .navbar-nav .nav-link {
+        font-size: 17px !important;
+    }
+
+    .navbar-nav .nav-item {
+        border-bottom: 1px solid #dad7d7;
+    }
+
+    .navbar-nav .nav-item:last-child {
+        border: none;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    ul.heroicon a {
+        width: 52px;
+        height: 54px;
+    }
+
+    ul.heroicon a img {
+        width: 25px;
+    }
+
+    span.goldimg {
+        width: 160px;
+        height: 160px;
+        left: 20px;
+        bottom: 130px;
+    }
+
+    section.heresection {
+        height: 545px;
+    }
+
+    a.livechat {
+        bottom: 80px;
+    }
+
+    .appoinmentdetail span {
+        justify-content: center;
+        margin: 0;
+        font-size: 22px;
+    }
+
+    .appoinmentdetail {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    ul#pills-tab {
+        margin-bottom: 30px !important;
+    }
+
+    .appoinmentdetail h3 {
+        font-size: 24px;
+    }
+
+    div#pills-home .row {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    div#pills-home .row .col-lg-6 {
+        width: 60%;
+    }
+
+    div#pills-home .row .col-lg-6+.col-lg-3 {
+        width: 40%;
+    }
+
+    .expertisetitle h3 {
+        font-size: 30px;
+    }
+
+    .expertisetitle {
+        padding: 40px 70px;
+    }
+
+    section.expertisesec {
+        padding-bottom: 10px;
+    }
+
+    .rakhintegratedtitle h3 {
+        letter-spacing: 0;
+        line-height: 50px;
+    }
+
+    .tabtitle h5 {
+        font-size: 21px;
+        margin: 0;
+    }
+
+    div#v-pills-tab button:after {
+        width: 90px;
+    }
+
+    .row.row-cols-1.row-cols-md-3.g-4 .col {
+        padding: 0 5px;
+    }
+
+    .card img {
+        height: 180px;
+    }
+
+    .card-body p {
+        font-size: 15px;
+    }
+
+    .card-body a {
+        font-size: 16px;
+    }
+
+    .card-body h5 {
+        font-size: 19px;
+    }
+
+    ul.socialmedia {
+        top: 10px;
+        left: 27px;
+    }
+
+    .navbar-nav .nav-link i {
+        margin-left: auto;
+    }
+
+    div#navbarNav {
+        z-index: 99;
+    }
+
+    nav.navbar.navbar-expand-lg {
+        padding: 6px 0px;
+    }
+
+    span.herobanner {
+        height: calc(100% - 100px);
+    }
+
+    .navbar .navbar-nav .nav-link {
+        font-size: 17px !important;
+    }
+
+    .navbar-nav .nav-item {
+        border-bottom: 1px solid #dad7d7;
+    }
+
+    .navbar-nav .nav-item:last-child {
+        border: none;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    ul.heroicon a {
+        width: 52px;
+        height: 54px;
+    }
+
+    ul.heroicon a img {
+        width: 25px;
+    }
+
+    span.goldimg {
+        width: 160px;
+        height: 160px;
+        left: 20px;
+        bottom: 130px;
+    }
+
+    section.heresection {
+        height: 545px;
+    }
+
+    a.livechat {
+        bottom: 80px;
+    }
+
+    .appoinmentdetail span {
+        justify-content: center;
+        margin: 0;
+        font-size: 22px;
+    }
+
+    .appoinmentdetail {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    ul#pills-tab {
+        margin-bottom: 30px !important;
+    }
+
+    .appoinmentdetail h3 {
+        font-size: 24px;
+    }
+
+    div#pills-home .row {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    div#pills-home .row .col-lg-6 {
+        width: 60%;
+    }
+
+    div#pills-home .row .col-lg-6+.col-lg-3 {
+        width: 40%;
+    }
+
+    .expertisetitle h3 {
+        font-size: 30px;
+    }
+
+    .expertisetitle {
+        padding: 40px 70px;
+        padding-bottom: 0;
+    }
+
+    section.expertisesec {
+        padding-bottom: 10px;
+    }
+
+    .rakhintegratedtitle h3 {
+        letter-spacing: 0;
+        line-height: 50px;
+    }
+
+    .tabtitle h5 {
+        font-size: 21px;
+        margin: 0;
+    }
+
+    div#v-pills-tab button:after {
+        width: 90px;
+    }
+
+    .row.row-cols-1.row-cols-md-3.g-4 .col {
+        padding: 0 5px;
+    }
+
+    .card img {
+        height: 180px;
+    }
+
+    .card-body p {
+        font-size: 15px;
+    }
+
+    .card-body a {
+        font-size: 16px;
+    }
+
+    .card-body h5 {
+        font-size: 19px;
+    }
+
+    header.fixed .searchbutton {
+        bottom: 9px;
+        margin: auto;
+        left: 56%;
+        transform: translateX(-50%);
+        max-width: 320px;
+    }
+
+    header.fixed .searchbutton input {
+        font-size: 14px;
+    }
+
+    footer .col-lg-3 {
+        width: 25%;
+    }
+
+    .footermenu h4 {
+        font-size: 22px;
+    }
+
+    .rasaititle h3 {
+        font-size: 40px;
+    }
+
+    .awardtitle h3 {
+        font-size: 32px;
+    }
+
+    ul#brand {
+        margin-top: 30px !important;
+        margin-bottom: 0;
+    }
+
+    .owl-nav {
+        display: none;
+    }
+
+    section.awardsec {
+        padding: 30px 0px;
+    }
+
+    ul.socialmediamain a h6 {
+        font-size: 26px;
+    }
+
+    ul.socialmediamain a span {
+        font-size: 16px;
+    }
+
+    .footermenu ul li a {}
+
+    ul.socialmediamain a i {
+        font-size: 40px;
+    }
+
+    .footermenu ul li a {
+        max-width: 220px;
+    }
+
+    footer .col-lg-2 {
+        width: 33%;
+    }
+
+    footer .col-lg-2:last-child {
+        width: 50%;
+    }
+
+    /**********  Responsive Menu  **********/
+    .rasaibanner {}
+
+    .rasaibanner {
+        position: relative;
+        padding: 30px;
+    }
+
+    .rasaibanner:after {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: #59392b61;
+    }
+
+    .rasaibanner span {
+        position: relative;
+        z-index: 99;
+        margin-bottom: 15px;
+        font-size: 24px;
+    }
+
+    .bg-white {
+        position: relative;
+        z-index: 99;
+        margin-bottom: 21px;
+    }
+
+    .rasaibanner a {
+        position: relative;
+        z-index: 999;
+        font-size: 20px;
+    }
+
+    .bg-white p {
+        font-size: 22px;
+    }
+
+    .bg-white h3 {
+        font-size: 37px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .heroinfo h1 {
+        font-size: 22px;
+    }
+
+    a.livechat {
+        height: 40px;
+        font-size: 16px;
+        width: 100px;
+    }
+
+    .col-lg-3 ul#pills-tab button {
+        width: 70px;
+    }
+
+    .expertisetitle {
+        padding: 30px;
+        padding-bottom: 0;
+    }
+
+    .expertisetitle h3 {
+        letter-spacing: 0;
+        font-size: 27px;
+    }
+
+    .expertisetitle p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .rakhintegratedtitle h3 {
+        font-size: 25px;
+    }
+
+    .d-flex.align-items-start {
+        flex-direction: column;
+    }
+
+    div#v-pills-tab {
+        flex-direction: row !important;
+        margin-bottom: 20px;
+    }
+
+    div#v-pills-tab button:after {
+        display: none;
+    }
+
+    div#v-pills-tab button {
+        padding: 10px;
+    }
+
+    .tabtitle {
+        display: none;
+    }
+
+    footer .col-lg-3 {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    header .searchbutton {
+        transform: translateX(-50%);
+        bottom: -63px !important;
+        max-width: 100% !important;
+        left: 50% !important;
+        height: 53px !important;
+        height: 53px;
+    }
+
+    span.goldimg {
+        width: 120px;
+        height: 120px;
+    }
+
+    header .searchbutton a {
+        width: 43px !IMPORTANT;
+        height: 43px !IMPORTANT;
+    }
+
+    .searchbutton input {
+        font-size: 14px;
+    }
+
+    .rakhintegratedtitle {
+        border-radius: 40px 0px;
+        margin-bottom: 30px;
+    }
+
+    .rakhintegratedtitle h3 {
+        font-size: 22px;
+    }
+
+    ul.socialmedia a {
+        height: 47px;
+    }
+
+    span.herobanner {
+        height: calc(100% - 80px);
+    }
+
+    footer .col-lg-2:last-child {
+        width: 66%;
+    }
+
+    .rasaibanner span {
+        font-size: 20px;
+    }
+
+    .bg-white h3 {
+        font-size: 30px;
+        margin-bottom: 4px;
+    }
+
+    .bg-white p {
+        font-size: 20px;
+    }
+
+    .rasaibanner a {
+        font-size: 18px;
+    }
+
+    .rasaibanner a i {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+
+    .heroinfo h1 {
+        margin-bottom: 10px !important;
+    }
+
+    ul#pills-tab {
+        padding: 10px;
+    }
+
+    div#pills-home .row .col-lg-6 {
+        width: 100%;
+    }
+
+    div#pills-home .row .col-lg-6+.col-lg-3 {
+        width: 100%;
+    }
+
+    .col-lg-3 ul#pills-tab {
+        justify-content: center;
+        margin-bottom: 0 !important;
+    }
+
+    .col-lg-3 ul#pills-tab li {
+        width: 48%;
+    }
+
+    ul#pills-tab li button {
+        width: 100% !important;
+    }
+
+    .expertisetitle {
+        /* padding: 20px; */
+    }
+
+    .rakhintegratedtitle h3 {
+        font-size: 21px;
+        line-height: 24px;
+    }
+
+    .rakhintegratedtitle {
+        border-radius: 20px 0px;
+    }
+
+    div#v-pills-tab {
+        gap: 5px;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+        overflow: auto;
+    }
+
+    div#v-pills-tab button {
+        padding: 6px;
+        font-size: 15px;
+    }
+
+    .servicecalltitle h3 {
+        font-size: 24px;
+    }
+
+    section.servicesec {
+        padding: 30px 0px;
+    }
+
+    section.rasai {
+        padding-top: 50px;
+    }
+
+    .rasaititle h3 {
+        font-size: 30px;
+    }
+
+    .rasaititle p {
+        font-size: 20px;
+    }
+
+    .footermenu ul li a {
+        font-size: 14px;
+    }
+
+    footer {
+        padding: 40px 0px 0px;
+    }
+
+    .footermenu h4 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .coprights p {
+        font-size: 14px;
+    }
+
+    div#v-pills-tab::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 349px) {}
