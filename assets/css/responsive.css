@@ -11,27 +11,6 @@
 }
 
 @media only screen and (max-width: 1800px) {
-    .expertisetitle h3 {
-        font-size: 68px;
-        margin-top: -75px;
-    }
-
-    .appoinmentdetail h3 {
-        font-size: 40px;
-    }
-
-    ul#pills-tab button {
-        padding: 10px 30px;
-    }
-
-    ul.stepslist li {
-        height: 310px;
-    }
-
-    .stepup h4 {
-        max-width: 370px;
-    }
-
     .row.align-items-center.contact-form {
         padding: 0 20px;
     }
@@ -93,23 +72,6 @@
 
 
 @media only screen and (max-width: 1599px) {
-    ul.stepslist li {
-        width: 48%;
-    }
-
-    .stepup h4 {
-        max-width: 510px;
-        font-size: 24px;
-    }
-
-    .stepup {
-        gap: 20px;
-    }
-
-    ul.stepslist li {
-        height: 290px;
-    }
-
     .section-title.about-info h2 {
         font-size: 22px;
     }
@@ -300,36 +262,6 @@
 }
 
 @media only screen and (max-width: 1429px) {
-    .col-xl-6.bg-grey.mb-xl-0.mb-3 {
-        width: 100%;
-    }
-
-    .col-xl-6.padding {
-        margin-top: 30px;
-    }
-
-    .col-lg-3.home-titlesection {
-        width: 100%;
-        justify-content: center;
-    }
-
-    .col-lg-5.home-menu {}
-
-    .col-lg-4.home-iframeform {
-        width: 50%;
-    }
-
-    .appoinmentdetail {
-        margin-bottom: 40px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    ul.stepslist li {
-        height: 450px;
-    }
-
     .eyecare-doctors .appointment-form {
         width: 70%;
     }
@@ -478,22 +410,6 @@
 }
 
 @media only screen and (max-width: 1199px) {
-    .rakcaretitle h3 {
-        font-size: 38px;
-    }
-
-    .rakcaretitle p {
-        font-size: 20px;
-    }
-
-    ul.stepslist li {
-        height: 260px;
-    }
-
-    .stepup h4 {
-        max-width: 350px;
-    }
-
     .col-xl-6.padding {
         justify-content: flex-start;
         margin-top: 30px;
@@ -534,7 +450,7 @@
     }
 
     a.nav-link {
-        font-size: 13px !important;
+        font-size: 14px !important;
     }
 
     a.navbar-brand {
@@ -764,29 +680,6 @@
 }
 
 @media only screen and (max-width: 991px) {
-
-    .col-lg-5.home-menu {
-        width: 100%;
-    }
-
-    .col-lg-4.home-iframeform {
-        width: 100%;
-        margin-top: 20px;
-    }
-
-    .stepdown p {
-        font-size: 16px;
-    }
-
-    .stepup h4 {
-        max-width: 240px;
-        font-size: 22px;
-    }
-
-    ul.stepslist li {
-        height: 260px;
-    }
-
     .eyecare-doctors .appointment-form {
         width: 100%;
     }
@@ -1721,34 +1614,6 @@
 
 
 @media only screen and (max-width: 767px) {
-    .col-xl-6.bg-grey.mb-xl-0.mb-3 {
-        width: 100%;
-    }
-
-    .col-xl-6.padding {
-        margin-top: 30px;
-    }
-
-    .col-lg-3.inner-form-left {}
-
-    .row.content-coll {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .row.content-coll .col-lg-9 {
-        width: 100%;
-    }
-
-    ul.stepslist li {
-        width: 100%;
-        height: 230px;
-    }
-
-    .stepup h4 {
-        max-width: 380px;
-    }
-
     .doctorimg {
         height: 260px !important;
     }
@@ -1998,17 +1863,6 @@
 }
 
 @media only screen and (max-width: 575px) {
-    iframe {
-        height: 654px;
-    }
-
-    ul.stepslist li {
-        height: 210px;
-    }
-
-    .stepup h4 {
-        max-width: 310px;
-    }
 
     .doctorimg {
         height: 440px !important;
@@ -2283,7 +2137,7 @@
     }
 
     ul.stepslist li {
-        height: 200px;
+        height: 160px;
     }
 
     ul.stepslist {
@@ -2327,25 +2181,13 @@
 }
 
 @media only screen and (max-width: 479px) {
-    .stepdown i {
-        max-width: 60px;
-    }
-
-    .stepup h4 {
-        font-size: 19px;
-        max-width: 260px;
-    }
-
-    .stepdown p {
-        font-size: 15px;
-    }
 
     .blogimg.mr-5 {
         margin-right: 0;
     }
 
     ul.stepslist li {
-        width: 100%;
+        width: 48%;
     }
 
     .bg-grey {
@@ -2577,7 +2419,7 @@
     }
 
     ul.stepslist li {
-        height: 230px;
+        height: 130px;
     }
 
     .about-info h2 {
@@ -2612,13 +2454,10 @@
 }
 
 @media only screen and (max-width: 349px) {
-    .stepup h4 {
-        max-width: 180px;
-    }
 
     ul.stepslist li {
         width: 100%;
-        height: 260px;
+        height: 150px;
     }
 
     ul.footersocialmedia.contact-socialmedia li a img {
@@ -2682,7 +2521,7 @@
     }
 
     .bg-grey {
-        padding: 30px 10px;
+        padding: 50px 20px;
     }
 
     .inner-form-left div#v-pills-tab {
@@ -2714,9 +2553,5 @@
 
     li.treatment-listitem h6 {
         font-size: 16px;
-    }
-
-    section.about-tabsection.padding {
-        padding: 30px 10px;
     }
 }

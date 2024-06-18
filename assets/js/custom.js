@@ -78,7 +78,7 @@ $('#brand').owlCarousel({
     responsive: {
         0: {
             items: 2.5,
-            nav: false
+            nav: true
         },
         600: {
             items: 5,
@@ -140,7 +140,7 @@ $('#Technology').owlCarousel({
     }
 })
 
-$('#doctors').owlCarousel({
+$('#Doctors').owlCarousel({
     loop: true,
     margin: 54,
     nav: true,
@@ -162,50 +162,3 @@ $('#doctors').owlCarousel({
         }
     }
 })
-
-$('#Testimonials').owlCarousel({
-    loop: true,
-    margin: 54,
-    nav: true,
-    navText: ["<img src='assets/images/svg/arrow-left.svg'>", "<img src='assets/images/svg/arrow-right.svg'>"],
-    responsiveClass: true,
-    responsive: {
-        0: {
-            items: 1,
-            nav: true
-        },
-        600: {
-            items: 2,
-            nav: true
-        },
-        1000: {
-            items: 4,
-            nav: true,
-            loop: false
-        }
-    }
-})
-$('#countrys').owlCarousel({
-    loop: true,
-    margin: 54,
-    nav: true,
-    navText: ["<img src='assets/images/svg/arrow-left.svg'>", "<img src='assets/images/svg/arrow-right.svg'>"],
-    responsiveClass: true,
-    responsive: {
-        0: {
-            items: 1,
-            nav: true
-        },
-        600: {
-            items: 3,
-            nav: true
-        },
-        1000: {
-            items: 5,
-            nav: true,
-            loop: false
-        }
-    }
-})
-
-
