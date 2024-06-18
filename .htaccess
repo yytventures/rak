@@ -1,0 +1,23 @@
+RewriteEngine on
+RewriteRule ^doctor/([a-zA-Z0-9_-]+)$ details.php?slug=$1 [L]
+RewriteRule ^findyoutdoctors$ findyoutdoctors.php?slug=$1 [L]
+RewriteRule ^about$ about.php?slug=$1 [L]
+RewriteRule ^career$ career.php?slug=$1 [L]
+RewriteRule ^speciallity$ speciallity.php?slug=$1 [L]
+RewriteRule ^speciality/([a-zA-Z0-9_-]+)$ specilitydetail.php?slug=$1 [L]
+
+RewriteRule ^PatientServices$ PatientServices.php?slug=$1 [L]
+RewriteRule ^HospitalityServices$ HospitalityServices.php?slug=$1 [L]
+
+<IfModule mod_expires.c>
+    ExpiresActive On
+    # Default expiration: 1 hour after request
+    ExpiresDefault "access plus 1 hour"
+    
+    # Caching for PHP files (1 hour)
+    <FilesMatch "\.php$">
+        ExpiresDefault "access plus 1 hour"
+        Header set Cache-Control "max-age=3600, public"
+    </FilesMatch>
+</IfModule>
+
