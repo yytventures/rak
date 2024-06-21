@@ -940,23 +940,22 @@
             </div>
         </div>
     </section>
-
     <section class="doctors">
-        <div class="container">
-            <div class="container-bg">
-                <div class="category-title">
-                    <h2>Doctors
-                    </h2>
-                </div>
-                <div class="owl-carousel owl-theme" id="Doctors">
-                    <div class="item bg-pink">
+    <div class="container">
+        <div class="container-bg">
+            <div class="category-title">
+                <h2>Doctors
+                </h2>
+            </div>
+            <div class="owl-carousel owl-theme" id="doctors">
+                <div class="item bg-pink">
                         <div class="categorymain">
                             <div class="doctor-title">
                                 <h5>Cardiology &
                                     Interventional Cardiology</h5>
                             </div>
                             <div class="doctorimg">
-                                <img src="./assets/images/doctor1.png" alt="">
+                                <img src="https://rakhospital.com/wp-content/uploads/2021/03/Dr.-Kim-Minkyung.jpg" alt="">
                             </div>
                             <div class="item-info doctor-info">
                                 <h5>Dr. Minkyung Kim</h5>
@@ -972,27 +971,11 @@
                                     Interventional Cardiology</h5>
                             </div>
                             <div class="doctorimg">
-                                <img src="./assets/images/doctor2.png" alt="">
-                            </div>
-                            <div class="item-info doctor-info">
-                                <h5>Dr. Minkyung Kim</h5>
-                                <h6><strong>Designation:</strong> Consultant,
-                                    Interventional Cardiologist (Visiting)</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item bg-pink">
-                        <div class="categorymain">
-                            <div class="doctor-title">
-                                <h5>Cardiology &
-                                    Interventional Cardiology</h5>
-                            </div>
-                            <div class="doctorimg">
-                                <img src="./assets/images/doctor3.png" alt="">
+                                <img src="https://rakhospital.com/wp-content/uploads/2019/07/Dr.-Sokhrab-Khorram-Sr.-Specialist-Cardiology.jpg" alt="">
                             </div>
                             <div class="item-info doctor-info">
                                 <h5>Dr. Sokhrab Khorram</h5>
-                                <h6><strong>Designation:</strong> Specialist Interventional Cardiologist</h6>
+                                <h6><strong>Designation:</strong> Specialist Cardiologist</h6>
                             </div>
                         </div>
                     </div>
@@ -1003,11 +986,11 @@
                                     Interventional Cardiology</h5>
                             </div>
                             <div class="doctorimg">
-                                <img src="./assets/images/doctor4.png" alt="">
+                                <img src="https://rakhospital.com/wp-content/uploads/2021/01/Dr.-Adel-Abdalla-Salama-Wassef.jpg" alt="">
                             </div>
                             <div class="item-info doctor-info">
                                 <h5>Dr. Adel Abdalla Salama Wassef</h5>
-                                <h6><strong>Designation:</strong> Specialist Interventional Cardiologist</h6>
+                                <h6><strong>Designation:</strong> Specialist Cardiologist</h6>
                             </div>
                         </div>
                     </div>
@@ -1018,95 +1001,16 @@
                                     Interventional Cardiology</h5>
                             </div>
                             <div class="doctorimg">
-                                <img src="./assets/images/doctor1.png" alt="">
+                                <img src="https://rakhospital.com/wp-content/uploads/2024/05/WhatsApp-Image-2024-05-04-at-12.53.50.jpeg" alt="">
                             </div>
                             <div class="item-info doctor-info">
                                 <h5>Dr. Ahmad Alabrass</h5>
-                                <h6><strong>Designation:</strong> Specialist Interventional
-                                    Cardiologist</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item bg-pink">
-                        <div class="categorymain">
-                            <div class="doctor-title">
-                                <h5>Cardiology &
-                                    Interventional Cardiology</h5>
-                            </div>
-                            <div class="doctorimg">
-                                <img src="./assets/images/doctor1.png" alt="">
-                            </div>
-                            <div class="item-info doctor-info">
-                                <h5>Dr. Minkyung Kim</h5>
-                                <h6><strong>Designation:</strong> Consultant,
-                                    Interventional Cardiologist (Visiting)</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item bg-pink">
-                        <div class="categorymain">
-                            <div class="doctor-title">
-                                <h5>Cardiology &
-                                    Interventional Cardiology</h5>
-                            </div>
-                            <div class="doctorimg">
-                                <img src="./assets/images/doctor2.png" alt="">
-                            </div>
-                            <div class="item-info doctor-info">
-                                <h5>Dr. Minkyung Kim</h5>
-                                <h6><strong>Designation:</strong> Consultant,
-                                    Interventional Cardiologist (Visiting)</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item bg-pink">
-                        <div class="categorymain">
-                            <div class="doctor-title">
-                                <h5>Cardiology &
-                                    Interventional Cardiology</h5>
-                            </div>
-                            <div class="doctorimg">
-                                <img src="./assets/images/doctor3.png" alt="">
-                            </div>
-                            <div class="item-info doctor-info">
-                                <h5>Dr. Sokhrab Khorram</h5>
                                 <h6><strong>Designation:</strong> Specialist Interventional Cardiologist</h6>
                             </div>
                         </div>
                     </div>
-                    <div class="item bg-pink">
-                        <div class="categorymain">
-                            <div class="doctor-title">
-                                <h5>Cardiology &
-                                    Interventional Cardiology</h5>
-                            </div>
-                            <div class="doctorimg">
-                                <img src="./assets/images/doctor4.png" alt="">
-                            </div>
-                            <div class="item-info doctor-info">
-                                <h5>Dr. Adel Abdalla Salama Wassef</h5>
-                                <h6><strong>Designation:</strong> Specialist Interventional Cardiologist</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item bg-pink">
-                        <div class="categorymain">
-                            <div class="doctor-title">
-                                <h5>Cardiology &
-                                    Interventional Cardiology</h5>
-                            </div>
-                            <div class="doctorimg">
-                                <img src="./assets/images/doctor1.png" alt="">
-                            </div>
-                            <div class="item-info doctor-info">
-                                <h5>Dr. Ahmad Alabrass</h5>
-                                <h6><strong>Designation:</strong> Specialist Interventional
-                                    Cardiologist</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
-    </section>
-     <?php include "includes/footer.php"; ?>
+    </div>
+</section>
+<?php include "includes/footer.php"; ?>

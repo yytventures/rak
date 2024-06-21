@@ -1,5 +1,15 @@
 ﻿<?php include "includes/header.php"; ?>
-
+<style>
+.custom_button {
+    background: #DFB0CD;
+    border: 2px solid #C383A6;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-size: 21px;
+    color: #000;
+    font-weight: 600;
+}
+</style>
 <section class="cardiologysection findyourdoctors">
     <ul class="d-flex align-items-center">
         <li class="w-50">
@@ -12,21 +22,27 @@
         </li>
         <li class="w-50 searcharea">
             <div class="banner-search">
+			    <form name="search" action="findyourdoctors.php" method="GET" >
                 <div class="search-container">
                     <div class="search-box">
                         <img src="<?php echo BASE_URL ?>assets/images/search.avif" alt="">
                         <select id="searchSpeciality" name="searchSpeciality">
                             <option value="">Search By Speciality</option>
-                            <option value="cardiology">Cardiology</option>
-                            <option value="neurology">Neurology</option>
+                            <option value="Accident & Emergency" <?php echo (@$_GET['searchSpeciality'] == "Accident & Emergency")?'selected="selected"':'' ?>>Accident & Emergency</option>
+                            <option value="Anesthesiology & ICU" <?php echo (@$_GET['searchSpeciality'] == "Anesthesiology & ICU")?'selected="selected"':'' ?>>Anesthesiology & ICU</option>
                             <!-- Add more options as needed -->
                         </select>
                     </div>
                     <div class="search-box">
                         <img src="<?php echo BASE_URL ?>assets/images/search.avif" alt="">
-                        <input type="search" id="searchName" name="searchName" placeholder="Search By Name">
+                        <input type="search" id="searchName" name="searchName" value="<?php echo @$_GET['searchName']; ?>" placeholder="Search By Name">
                     </div>
+					<div class="header-right">
+					<input type="submit" name="search" value="Search" class="custom_button" />&nbsp;&nbsp;&nbsp;
+					<a href="<?php echo BASE_URL ?>findyourdoctors.php" class="custom_button">Reset</a>
+					</div>
                 </div>
+				</form>
             </div>
         </li>
     </ul>
@@ -39,11 +55,20 @@
         <div class="container-bg">
             <div class="eyecare-doctors find row">
                 <?php
-                $sql = "SELECT * FROM tbl_team WHERE slug NOT LIKE '%-ar'";
+				$where = " ";
+				if(isset($_GET['searchName']) && $_GET['searchName'] !="")
+				{
+					$where .= " AND title LIKE '%".$_GET['searchName']."%'";
+				}
+				if(isset($_GET['searchSpeciality']) && $_GET['searchSpeciality'] !="")
+				{
+					$where .= " AND MATCH (excert,content) AGAINST ('".$_GET['searchSpeciality']."')";
+				}
+                $sql = "SELECT * FROM tbl_team WHERE slug NOT LIKE '%-ar' $where";
                 $result = $conn->query($sql);
                 while ($row = $result->fetch_assoc()) {
                     $checkImagePath = "";
-                    $checkImagePath = validateRemoteImageUrl($row['media']);
+                    $checkImagePath = @validateRemoteImageUrl($row['media']);
                     if ($checkImagePath == "Valid") {
                         ?>
                         <div class="col-lg-3 col-md-3 col-sm-3">

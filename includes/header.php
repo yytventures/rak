@@ -1,9 +1,9 @@
-<?php 
+<?php
 error_reporting(E_ALL);
-ini_set('max_execution_time',0);
+ini_set('max_execution_time', 0);
 include "db.php";
 // Create connection
-$conn = new mysqli(servername,username,password,database);
+$conn = new mysqli(servername, username, password, database);
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
@@ -11,6 +11,7 @@ if ($conn->connect_error) {
 ?>
 <!doctype html>
 <html dir="ltr" lang="en-US">
+
 <head>
     <title>RAK Hospital</title>
     <link type="image/x-icon" rel="shortcut icon" href="assets/images/favicon.avif" />
@@ -26,21 +27,33 @@ if ($conn->connect_error) {
     <link type="text/css" rel="stylesheet" href="<?php echo BASE_URL ?>assets/font/stylesheet.css" />
     <link type="text/css" rel="stylesheet" href="<?php echo BASE_URL ?>assets/css/styles.css" />
     <link type="text/css" rel="stylesheet" href="<?php echo BASE_URL ?>assets/css/responsive.css" />
-	<script src="<?php echo BASE_URL ?>assets/js/jquery.min.js"></script>
-<style>
-    	a.livechat {
-    visibility: hidden;
-   
-}
-</style>
+    <script src="<?php echo BASE_URL ?>assets/js/jquery.min.js"></script>
+    <style>
+    a.livechat {
+        visibility: hidden;
+
+    }
+    </style>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en', // Set your page's language
+                includedLanguages: 'en,ar', // List of languages you want to include
+                
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 </head>
+
 <body>
     <!--Header-->
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <a class="navbar-brand" href="<?php echo BASE_URL ?>index.php"><img src="<?php echo BASE_URL ?>assets/images/logo.avif" alt="logo"></a>
+                <a class="navbar-brand" href="<?php echo BASE_URL ?>index.php"><img
+                        src="<?php echo BASE_URL ?>assets/images/logo.avif" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span
                         class="navbar-toggler-icon">
@@ -61,7 +74,7 @@ if ($conn->connect_error) {
                     </span></button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="socialmedia">
-                      <!--  <li>
+                        <!--  <li>
                             <a href="#">
                                 <img src="assets/images/msg.avif" alt="">
                                 Feedback
@@ -81,19 +94,22 @@ if ($conn->connect_error) {
                             </a>
                         </li> -->
                     </ul>
-					<?php include "menu.php"; ?>
+                    <?php include "menu.php"; ?>
                     <div class="btns">
-                        <span><i class="fa-solid fa-globe"></i></span>
+						<div id="google_translate_element"></div>
+                        <!--<span><i class="fa-solid fa-globe"></i></span>
                         <select name="" id="">
                             <option value="">English</option>
                             <option value="">العربية</option>
-                        </select>
+                        </select>-->
                     </div>
 
                 </div>
                 <div class="searchbutton">
-                    <input type="search" id="searchdoc" name="searchdoc" placeholder="Search for Doctors, Specialities, Treatments…">
-                    <a href="javascript:void(0)" onclick="search_title();"><img src="<?php echo BASE_URL ?>assets/images/search.avif" alt=""></a>
+                    <input type="search" id="searchdoc" name="searchdoc"
+                        placeholder="Search for Doctors, Specialities, Treatments…">
+                    <a href="javascript:void(0)" onclick="search_title();"><img
+                            src="<?php echo BASE_URL ?>assets/images/search.avif" alt=""></a>
                 </div>
             </div>
 
@@ -101,9 +117,8 @@ if ($conn->connect_error) {
         <!-- Modal -->
     </header>
     <script>
-	function search_title()
-	{
-		var bla = $('#searchdoc').val();
-		window.location.href = "https://rakhospital.com/?s="+bla+"&lang=en";
-	}
-	</script>
+    function search_title() {
+        var bla = $('#searchdoc').val();
+        window.location.href = "https://rakhospital.com/?s=" + bla + "&lang=en";
+    }
+    </script>

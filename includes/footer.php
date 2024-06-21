@@ -33,7 +33,7 @@
                     <div class="footermenu">
                         <h6>For Patients</h6>
                         <ul>
-                            <li><a href="<?php echo BASE_URL ?>findyoutdoctors.php">Find a Doctor
+                            <li><a href="<?php echo BASE_URL ?>findyourdoctors.php">Find a Doctor
                                 </a></li>
                             <li><a href="https://rakhospital.com/contact-us/make-an-appointment/">Book Appointment
                                 </a></li>

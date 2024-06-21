@@ -18,7 +18,7 @@ $row = $result->fetch_assoc();
                 </div>
             </li>
             <li class="w-50">
-                <span><img src="<?php echo BASE_URL ?>assets/images/abouthomeimg.png" alt=""></span>
+                
             </li>
         </ul>
 		<?php include "includes/socialinks.php"; ?> 

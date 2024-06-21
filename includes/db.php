@@ -6,7 +6,7 @@ if($_SERVER['HTTP_HOST'] == "localhost")
 	define('password',"");
 	define('database',"rakwithinfinity");
 	define('BASE_URL_API',"https://rakwithinfinity.online/wp-json/wp/v2");
-	define('BASE_URL',"http://localhost/rakwithinfinity/pages/");
+	define('BASE_URL',"http://localhost/rakwithinfinity/new/");
 	define('APPOINTMENT_BASE_URL',"https://rakwithinfinity.online/eforms/make-an-appointment-home-page/22/?v=1");
 }
 else
@@ -31,7 +31,7 @@ function validateRemoteImageUrl($url) {
     curl_setopt($ch, CURLOPT_TIMEOUT, 10); // timeout after 10 seconds
 
     // Execute the cURL session
-    $headers = curl_exec($ch);
+    $headers = @curl_exec($ch);
 
     // Check for cURL errors
     if (curl_errno($ch)) {
@@ -40,7 +40,7 @@ function validateRemoteImageUrl($url) {
     }
 
     // Get the HTTP status code
-    $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    $http_code = @curl_getinfo($ch, CURLINFO_HTTP_CODE);
     
     // Check if the HTTP status code is 200 (OK)
     if ($http_code != 200) {
