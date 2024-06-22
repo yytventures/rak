@@ -11,7 +11,7 @@
             </div>
         </li>
         <li class="w-50">
-            <span><img src="<?php echo BASE_URL ?>assets/images/patientserviceshomeimg.png" alt=""></span>
+            <span><img src="<?php echo BASE_URL ?>assets/images/hospitalityhomeimg.png" alt=""></span>
         </li>
     </ul>
     <div class="container">
@@ -71,7 +71,7 @@
                 <ul class="hospitality-info">
                     <li class="hospitality-left">
                         <div class="hospitality-img">
-                            <img src="<?php echo BASE_URL ?>assets/images/serviceimg/hospitalityimg1.png" alt="">
+                            <img src="<?php echo BASE_URL ?>assets/images/hospitalityimg1.png" alt="">
                         </div>
                     </li>
                     <li class="hospitality-right">
@@ -92,14 +92,14 @@
                     </li>
                     <li class="hospitality-left">
                         <div class="hospitality-img bg-pink">
-                            <img src="<?php echo BASE_URL ?>assets/images/serviceimg/hospitalityimg2.png" alt="">
+                            <img src="<?php echo BASE_URL ?>assets/images/hospitalityimg2.png" alt="">
                         </div>
                     </li>
                 </ul>
                 <ul class="hospitality-info">
                     <li class="hospitality-left">
                         <div class="hospitality-img">
-                            <img src="<?php echo BASE_URL ?>assets/images/serviceimg/hospitalityimg3.png" alt="">
+                            <img src="<?php echo BASE_URL ?>assets/images/hospitalityimg3.png" alt="">
                         </div>
                     </li>
                     <li class="hospitality-right">
@@ -122,14 +122,14 @@
                     </li>
                     <li class="hospitality-left">
                         <div class="hospitality-img bg-pink">
-                            <img src="<?php echo BASE_URL ?>assets/images/serviceimg/hospitalityimg4.png" alt="">
+                            <img src="<?php echo BASE_URL ?>assets/images/hospitalityimg4.png" alt="">
                         </div>
                     </li>
                 </ul>
                 <ul class="hospitality-info">
                     <li class="hospitality-left">
                         <div class="hospitality-img">
-                            <img src="<?php echo BASE_URL ?>assets/images/serviceimg/hospitalityimg5.png" alt="">
+                            <img src="<?php echo BASE_URL ?>assets/images/hospitalityimg5.png" alt="">
                         </div>
                     </li>
                     <li class="hospitality-right">
@@ -152,7 +152,7 @@
                     </li>
                     <li class="hospitality-left">
                         <div class="hospitality-img bg-pink">
-                            <img src="<?php echo BASE_URL ?>assets/images/serviceimg/hospitalityimg6.png" alt="">
+                            <img src="<?php echo BASE_URL ?>assets/images/hospitalityimg6.png" alt="">
                         </div>
                     </li>
                 </ul>
@@ -175,14 +175,14 @@
     </div>
 </section>
 <script>
-const hashValue = window.location.hash.substring(1); // Removes the '#' at the beginning
-console.log(hashValue); // Output: section1
-document.addEventListener('DOMContentLoaded', function() {
-    // Replace 'profile-tab' with the ID of the tab button you want to auto-open
-    var profileTab = document.getElementById(hashValue);
-    // Trigger a click event on the tab button to open the tab content
-    profileTab.click();
-    console.log('clicked');
-});
+    const hashValue = window.location.hash.substring(1); // Removes the '#' at the beginning
+    console.log(hashValue); // Output: section1
+    document.addEventListener('DOMContentLoaded', function () {
+        // Replace 'profile-tab' with the ID of the tab button you want to auto-open
+        var profileTab = document.getElementById(hashValue);
+        // Trigger a click event on the tab button to open the tab content
+        profileTab.click();
+        console.log('clicked');
+    });
 </script>
 <?php include "includes/footer.php"; ?>

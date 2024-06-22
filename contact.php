@@ -52,7 +52,7 @@
                                     <div class="align-items-start bg-none">
                                         <div class="appointment-form inner-form">
                                             <div class="">
-                                                <iframe width="100%" height="720" frameborder="0" scrolling="yes"
+                                                <iframe width="85%" height="720" frameborder="0" scrolling="yes"
                                                     src="<?php echo APPOINTMENT_BASE_URL; ?>"></iframe>
                                             </div>
                                         </div>
@@ -63,7 +63,7 @@
                                     <div class="align-items-start">
                                         <div class="appointment-form inner-form">
                                             <div class="">
-                                                <iframe width="100%" height="720" frameborder="0" scrolling="yes"
+                                                <iframe width="85%" height="720" frameborder="0" scrolling="yes"
                                                     src="<?php echo APPOINTMENT_BASE_URL; ?>"></iframe>
                                             </div>
                                         </div>
@@ -74,7 +74,7 @@
                                     <div class="align-items-start">
                                         <div class="appointment-form inner-form">
                                             <div class="">
-                                                <iframe width="100%" height="720" frameborder="0" scrolling="yes"
+                                                <iframe width="85%" height="720" frameborder="0" scrolling="yes"
                                                     src="<?php echo APPOINTMENT_BASE_URL; ?>"></iframe>
                                             </div>
                                         </div>

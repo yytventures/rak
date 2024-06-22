@@ -30,27 +30,27 @@
                 <div class="col-lg-3">
                     <ul class="servicenav nav">
                         <li class="nav-item">
-                            <a href="RakInternationalPatientService.html">International Patient Services <i
+                            <a href="RakInternationalPatientService.php">International Patient Services <i
                                     class="fa-solid fa-chevron-right"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a href="AboutRasAlKhaimah.html">About Ras Al Khaimah <i
+                            <a href="AboutRasAlKhaimah.php">About Ras Al Khaimah <i
                                     class="fa-solid fa-chevron-right"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a href="PlanyourPlanTravel.html">Plan your Plan Travel <i
+                            <a href="PlanyourPlanTravel.php">Plan your Plan Travel <i
                                     class="fa-solid fa-chevron-right"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a href="RequestforaQuote.html">Request for a Quote / Treatment Plan <i
+                            <a href="RequestforaQuote.php">Request for a Quote / Treatment Plan <i
                                     class="fa-solid fa-chevron-right"></i></a>
                         </li>
                         <li class="nav-item active">
-                            <a href="HealthCheckupPackages.html">Health Check-up Packages <i
+                            <a href="HealthCheckupPackages.php">Health Check-up Packages <i
                                     class="fa-solid fa-chevron-right"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a href="VirtualSecondOpinion.html">Virtual Second Opinion <i
+                            <a href="VirtualSecondOpinion.php">Virtual Second Opinion <i
                                     class="fa-solid fa-chevron-right"></i></a>
                         </li>
 
@@ -93,7 +93,7 @@
                             Men/Women</h3>
                         <p>9150 AED
                         </p>
-                        <a href="#">Book Now</a>
+                        <a href="https://rakhospital.com/contact-us/make-an-appointment/">Book Now</a>
                     </div>
                 </div>
                 <div class="col-lg-4 mb-4 bg-pink">
@@ -104,7 +104,7 @@
                         </h3>
                         <p>3500 AED
                         </p>
-                        <a href="#">Book Now</a>
+                        <a href="https://rakhospital.com/contact-us/make-an-appointment/">Book Now</a>
                     </div>
                 </div>
                 <div class="col-lg-4 mb-4">
@@ -115,7 +115,7 @@
                         </h3>
                         <p>3800 AED
                         </p>
-                        <a href="#">Book Now</a>
+                        <a href="https://rakhospital.com/contact-us/make-an-appointment/">Book Now</a>
                     </div>
                 </div>
                 <div class="col-lg-4 bg-pink">
@@ -127,7 +127,7 @@
                         </h3>
                         <p>2500 AED
                         </p>
-                        <a href="#">Book Now</a>
+                        <a href="https://rakhospital.com/contact-us/make-an-appointment/">Book Now</a>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -139,7 +139,7 @@
                         </h3>
                         <p>1500 AED
                         </p>
-                        <a href="#">Book Now</a>
+                        <a href="https://rakhospital.com/contact-us/make-an-appointment/">Book Now</a>
                     </div>
                 </div>
                 <div class="col-lg-4 bg-pink">
@@ -149,7 +149,7 @@
                         </h3>
                         <p>25000 AED
                         </p>
-                        <a href="#">Book Now</a>
+                        <a href="https://rakhospital.com/contact-us/make-an-appointment/">Book Now</a>
                     </div>
                 </div>
             </div>
@@ -221,7 +221,7 @@
             <img src="assets/images/phone.png" class="m-0" alt="">
             <div class="contactdetail">
                 <p>Get in Touch With Us</p>
-                <h3>+971 7 207 4444</h3>
+                <h3>+971 58 954 7797</h3>
             </div>
         </div>
     </section>

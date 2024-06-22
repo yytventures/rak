@@ -173,11 +173,7 @@ $getslug = $_REQUEST['slug'];
                     </a>
                 </div>
             </li>
-        </ul>
-        <div class="more">
-            <a class="more-btn" id="more-btn" href="javascript:void(0);">More Specialities</a>
-            <ul class="speciality-content" id="speciality-content" style="display: none;">
-                <li class="speciality-bg">
+              <li class="speciality-bg">
                     <div class="speciality-iconbg">
                         <img src="<?php echo BASE_URL ?>assets/images/specialty-icon/Pain-Management-Clinic.png" alt="">
                     </div>
@@ -187,7 +183,7 @@ $getslug = $_REQUEST['slug'];
                         </a>
                     </div>
                 </li>
-                <li class="speciality-bg">
+                 <li class="speciality-bg">
                     <div class="speciality-iconbg">
                         <img src="<?php echo BASE_URL ?>assets/images/specialty-icon/Paediatrics-Neonatology.png" alt="">
                     </div>
@@ -209,6 +205,7 @@ $getslug = $_REQUEST['slug'];
 
                     </div>
                 </li>
+                
                 <li class="speciality-bg">
                     <div class="speciality-iconbg">
                         <img src="<?php echo BASE_URL ?>assets/images/specialty-icon/Neuro-Sciences.png" alt="">
@@ -220,7 +217,8 @@ $getslug = $_REQUEST['slug'];
 
                     </div>
                 </li>
-                <li class="speciality-bg">
+                
+                 <li class="speciality-bg">
                     <div class="speciality-iconbg">
                         <img src="<?php echo BASE_URL ?>assets/images/specialty-icon/Plastic-Aesthetic-Reconstructive-Surgery.png" alt="">
                     </div>
@@ -242,7 +240,7 @@ $getslug = $_REQUEST['slug'];
 
                     </div>
                 </li>
-                <li class="speciality-bg">
+                   <li class="speciality-bg">
                     <div class="speciality-iconbg">
                         <img src="<?php echo BASE_URL ?>assets/images/specialty-icon/Rehabilitation-Physiotherapy.png" alt="">
                     </div>
@@ -253,7 +251,7 @@ $getslug = $_REQUEST['slug'];
 
                     </div>
                 </li>
-                <li class="speciality-bg">
+                 <li class="speciality-bg">
                     <div class="speciality-iconbg">
                         <img src="<?php echo BASE_URL ?>assets/images/specialty-icon/Respiratory-Medicine-Pulmonology.png" alt="">
                     </div>
@@ -265,7 +263,8 @@ $getslug = $_REQUEST['slug'];
 
                     </div>
                 </li>
-                <li class="speciality-bg">
+                
+                 <li class="speciality-bg">
                     <div class="speciality-iconbg">
                         <img src="<?php echo BASE_URL ?>assets/images/specialty-icon/Urology.png" alt="">
                     </div>
@@ -288,9 +287,10 @@ $getslug = $_REQUEST['slug'];
 
                     </div>
                 </li>
-            </ul>
-
-        </div>
+                
+                
+        </ul>
+       
     </div>
     </div>
 </section>

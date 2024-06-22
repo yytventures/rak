@@ -48,7 +48,9 @@
                             Partners <i class="fa-solid fa-chevron-right"></i></a></li>
                     <li class="nav-item"><a href="<?php echo BASE_URL ?>DiscountCardsServices.php">Discount Cards <i
                                 class="fa-solid fa-chevron-right"></i></a></li>
-                    <li class="nav-item"><a href="<?php echo BASE_URL ?>">Second Opinion <i
+                    <li class="nav-item"><a href="<?php echo BASE_URL ?>VirtualSecondOpinion.php">Virtual Second Opinion<i
+                                class="fa-solid fa-chevron-right"></i></a></li>
+                  <li class="nav-item"><a href="<?php echo BASE_URL ?>HealthCheckupPackages.php">Health Checkup Packages <i
                                 class="fa-solid fa-chevron-right"></i></a></li>
                     <li class="nav-item"><a href="<?php echo BASE_URL ?>">Maternity Care <i
                                 class="fa-solid fa-chevron-right"></i></a></li>
@@ -56,6 +58,8 @@
                                 class="fa-solid fa-chevron-right"></i></a></li>
                     <li class="nav-item"><a href="<?php echo BASE_URL ?>">Lab Tests <i
                                 class="fa-solid fa-chevron-right"></i></a></li>
+              
+                   
                 </ul>
             </div>
             <div class="col-lg-10">

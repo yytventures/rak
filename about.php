@@ -23,9 +23,18 @@
     <div class="container about-tab">
         <div class="d-flex align-items-start cardio-tabs">
             <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+               
+             
+                    
+                    <button class="nav-link active" id="" data-bs-toggle="pill"
                     data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
                     aria-selected="true">About RAK Hospital <i class="fa-solid fa-chevron-right"></i></button>
+                    
+                
+                    <button class="nav-link" id="v-pills-vision-tab" data-bs-toggle="pill" data-bs-target="#v-pills-vision"
+                    type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Vision Mission &
+                    Values <i class="fa-solid fa-chevron-right"></i></button>
+                    
                 <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
                     data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
                     aria-selected="false">Care at RAK Hospital <i class="fa-solid fa-chevron-right"></i></button>
@@ -38,9 +47,7 @@
                 <button class="nav-link" id="v-pills-award-tab" data-bs-toggle="pill" data-bs-target="#v-pills-award"
                     type="button" role="tab" aria-controls="v-pills-award" aria-selected="false">Award Winning Facility
                     <i class="fa-solid fa-chevron-right"></i></button>
-                <button class="nav-link" id="v-pills-vision-tab" data-bs-toggle="pill" data-bs-target="#v-pills-vision"
-                    type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Vision Mission &
-                    Values <i class="fa-solid fa-chevron-right"></i></button>
+               
 
             </div>
             <div class="tab-content content-tabs" id="v-pills-tabContent">

@@ -68,56 +68,8 @@
                         <div class="section-title">
                             <h2>Please complete the form to received cost estimate & treatment plan</h2>
                         </div>
-                        <div class="form">
-                            <form class="form-info" action="">
-                                <div class="form-detail">
-                                    <input type="email" id="mail" placeholder="Enter Name*">
-                                </div>
-                                <div class="form-detail">
-                                    <input type="email" id="password" placeholder="Enter Mobile Number*">
-                                </div>
-                                <div class="form-detail">
-                                    <input type="text" id="text" placeholder="Enter Email*">
-                                </div>
-                                <div class="form-detail">
-                                    <select name="" id="">
-                                        <option value="">Select Country</option>
-                                        <option value="">India</option>
-                                        <option value="">USA</option>
-                                        <option value="">CANADA</option>
-                                        <option value="">UK</option>
-                                    </select>
-                                </div>
-                                <div class="form-detail">
-                                    <select name="" id="">
-                                        <option value="">Select Speciality v</option>
-                                        <option value="">India</option>
-                                        <option value="">USA</option>
-                                        <option value="">CANADA</option>
-                                        <option value="">UK</option>
-                                    </select>
-                                </div>
-                                <div class="form-detail">
-                                    <input type="text" id="text" placeholder="Enter Your Comments*">
-                                </div>
-                                <div class="form-detail">
-                                    <input type="text" id="text" placeholder="Upload Report">
-                                    <a class="btn-upload" href="#">Upload
-                                    </a>
-                                </div>
-                                <div class="form-detail d-flex">
-                                    <input type="checkbox" id="term">
-                                    <label for="term">I agree to the terms and conditions
-                                    </label>
-                                </div>
-                                <div class=" header-right">
-                                    <button class="btn-submit" href="#"> <img src="./assets/images/metamase.svg" alt="">
-                                        Submit
-                                    </button>
-                                </div>
-                            </form>
-
-                        </div>
+                        <iframe width="100%" height="720" frameborder="0" scrolling="yes"
+                                src="https://rakwithinfinity.online/eforms/request-for-a-treatment-plan/13/"></iframe>
                     </div>
                 </div>
             </div>
@@ -193,7 +145,7 @@
         <img src="assets/images/phone.png" class="m-0" alt="">
         <div class="contactdetail">
             <p>Get in Touch With Us</p>
-            <h3>+971 7 207 4444</h3>
+            <h3>+971 58 954 7797</h3>
         </div>
     </div>
 </section>

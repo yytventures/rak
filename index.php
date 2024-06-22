@@ -1,18 +1,7 @@
 <?php include "includes/header.php"; ?>
 <section class="heresection">
     <div class="container">
-        <div class="heroinfo">
-            <ul class="heroicon">
-                <li class="bggreen">
-                    <a href="#"><img src="<?php echo BASE_URL ?>assets/images/whatsapp.avif" alt=""></a>
-                </li>
-                <li class="bgred">
-                    <a href="#"><img src="<?php echo BASE_URL ?>assets/images/notification.avif" alt=""></a>
-                </li>
-                <li class="bgblue">
-                    <a href="#"><img src="<?php echo BASE_URL ?>assets/images/share.avif" alt=""></a>
-                </li>
-            </ul>
+      <?php include "includes/socialinks.php"; ?>
             <!-- <a href="#" class="livechat">Live Chat</a>
               
                 <span class="goldimg"><img src="<?php echo BASE_URL ?>assets/images/gold.avif" alt=""></span>

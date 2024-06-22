@@ -9,6 +9,12 @@
                     <a href="<?php echo BASE_URL ?>about#v-pills-home-tab">About RAK Hospital</a>
                     <span class="arrow"><i class="fa-solid fa-angle-right"></i></span>
                 </li>
+                 <li>
+                    <img src="assets/images/svg/vision.svg" alt="Neurosciences">
+                    <a href="<?php echo BASE_URL ?>about#v-pills-award-tab">Vision Mission & Values</a>
+                    <span class="arrow"><i class="fa-solid fa-angle-right"></i></span>
+                </li>
+
                 <li>
                     <img src="assets/images/svg/care.svg" alt="Neurosciences">
                     <a href="<?php echo BASE_URL ?>about#v-pills-vision-tab">Care at RAK Hospital</a>
@@ -29,12 +35,7 @@
                     <a href="<?php echo BASE_URL ?>about#v-pills-settings-tab">Award Winning Facility</a>
                     <span class="arrow"><i class="fa-solid fa-angle-right"></i></span>
                 </li>
-                <li>
-                    <img src="assets/images/svg/vision.svg" alt="Neurosciences">
-                    <a href="<?php echo BASE_URL ?>about#v-pills-award-tab">Vision Mission & Values</a>
-                    <span class="arrow"><i class="fa-solid fa-angle-right"></i></span>
-                </li>
-
+               
             </ul>
         </div>
     </li>
@@ -136,6 +137,25 @@
                     <a href="<?php echo BASE_URL ?>DiscountCardsServices.php">Discount Cards</a>
                     <span class="arrow"><i class="fa-solid fa-angle-right"></i></span>
                 </li>
+                
+                <li>
+                    <img src="<?php echo BASE_URL ?>assets/images/svg/virtualsecond.svg" alt="View All">
+                    <a href="<?php echo BASE_URL ?>VirtualSecondOpinion.php">Virtual Second Opinion</a>
+                    <span class="arrow"><i class="fa-solid fa-angle-right"></i></span>
+                </li>
+                
+                 <li>
+                    <img src="<?php echo BASE_URL ?>assets/images/svg/healthcheckup.svg" alt="View All">
+                    <a href="<?php echo BASE_URL ?>HealthCheckupPackages.php">Health Check-up Packages</a>
+                    <span class="arrow"><i class="fa-solid fa-angle-right"></i></span>
+                </li>
+                
+                <li>
+                    <img src="<?php echo BASE_URL ?>assets/images/svg/healthcheckup.svg" alt="View All">
+                    <a href="<?php echo BASE_URL ?>MaternityPackages.pdf">Matenity Packages</a>
+                    <span class="arrow"><i class="fa-solid fa-angle-right"></i></span>
+                </li>
+                
             </ul>
         </div>
     </li>
@@ -165,20 +185,12 @@
                     <a href="<?php echo BASE_URL ?>RequestforaQuote.php">Request for a Quote / Treatment Plan</a>
                     <span class="arrow"><i class="fa-solid fa-angle-right"></i></span>
                 </li>
-                <li>
-                    <img src="<?php echo BASE_URL ?>assets/images/svg/healthcheckup.svg" alt="View All">
-                    <a href="<?php echo BASE_URL ?>HealthCheckupPackages.php">Health Check-up Packages</a>
-                    <span class="arrow"><i class="fa-solid fa-angle-right"></i></span>
-                </li>
-                <li>
-                    <img src="<?php echo BASE_URL ?>assets/images/svg/virtualsecond.svg" alt="View All">
-                    <a href="<?php echo BASE_URL ?>VirtualSecondOpinion.php">Virtual Second Opinion</a>
-                    <span class="arrow"><i class="fa-solid fa-angle-right"></i></span>
-                </li>
+               
+               
             </ul>
         </div>
     </li>
-    <li class="nav-item">
+    <!-- <li class="nav-item">
 
         <a class="nav-link " href="#">Knowldege <i class="fa-solid fa-chevron-down"></i></a>
         <div class="menu" style="display: none;">
@@ -215,7 +227,7 @@
                 </li>
             </ul>
         </div>
-    </li>
+    </li> -->
 
 
     <li class="nav-item">
@@ -224,6 +236,11 @@
                 class="fa-solid fa-chevron-down"></i></a>
         <div class="menu" style="display: none;">
             <ul>
+                <li>
+                    <img src="assets/images/heart.avif" alt="Cardiology">
+                    <a href="contact.php">Contact Us</a>
+                    <span class="arrow"><i class="fa-solid fa-angle-right"></i></span>
+                </li>
                 <li>
                     <img src="assets/images/heart.avif" alt="Cardiology">
                     <a href="https://rakhospital.com/contact-us/make-an-appointment/">Book an appointment</a>

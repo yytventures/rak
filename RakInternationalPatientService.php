@@ -282,7 +282,7 @@
         <img src="assets/images/phone.png" class="m-0" alt="">
         <div class="contactdetail">
             <p>Get in Touch With Us</p>
-            <h3>+971 7 207 4444</h3>
+            <h3>+971 58 954 7797</h3>
         </div>
     </div>
 </section>

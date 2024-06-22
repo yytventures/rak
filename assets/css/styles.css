@@ -3822,13 +3822,13 @@ ul.share-socialmedia {
     overflow: hidden;
     position: absolute;
     top: 70px;
-    background: #fff;
+    background: #ebebeb;
     border-radius: 18px 0 0 18px;
     transition: all 0.5s;
 }
 
 ul.share-socialmedia.active {
-    height: 270px;
+    height: 194px;
 }
 
 li.bgblue {
